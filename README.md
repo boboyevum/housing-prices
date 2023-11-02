@@ -1,5 +1,4 @@
-# Project Title
-Exploring Cook County, Chicago, USA housing.
+# Exploring Cook County, Chicago, USA housing.
 
 ## Description
 This project explores what can be learned from an extensive housing dataset that is embedded in a dense social context in Cook County, Illinois.
