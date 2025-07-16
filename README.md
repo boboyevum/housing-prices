@@ -1,13 +1,15 @@
-# Exploring Cook County, Chicago, USA housing.
+# Exploring Cook County, Chicago, USA Housing
 
 ## Description
-This project explores what can be learned from an extensive housing dataset that is embedded in a dense social context in Cook County, Illinois.
 
-In the first part of this project, I will perform some basic Exploratory Data Analysis (EDA) to understand the structure of the data. Next, I will be adding a few new features to the dataset, while cleaning the data as well in the process.
+This project analyzes a large-scale housing dataset from Cook County, Illinois, and was completed as part of the Data 100 course at UC Berkeley.
 
-In the second part of this project, I will specify and fit a linear model for the purpose of prediction. Finally, I will analyze the error of the model and brainstorm ways to improve the model's performance.
+In the first phase, I perform exploratory data analysis (EDA) to understand the structure and distribution of the data. I also engineer new features and clean the dataset to prepare it for modeling.
+
+In the second phase, I build and evaluate a linear regression model to predict housing sale prices. The project concludes with an error analysis and discussion of potential improvements.
 
 ## Data
-The dataset consists of over 500,000 records from Cook County, Illinois. The dataset has 61 features in total; the 62nd is `Sale Price`, which I will predict with linear regression. An explanation of each variable can be found in the included `codebook.txt` file.
 
-The data are split into training and test sets with 204,792 and 68,264 observations, respectively.
+The dataset contains over 500,000 housing records from Cook County, Illinois, with 61 input features and `Sale Price` as the target variable. A detailed description of the features is provided in the accompanying `codebook.txt` file.
+
+The data are split into training (204,792 observations) and test (68,264 observations) sets for modeling purposes.
